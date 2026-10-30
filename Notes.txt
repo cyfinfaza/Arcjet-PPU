@@ -1,0 +1,62 @@
+Power Specs
+Input voltage: 0-100V
+Input current: up to 10A
+Total power: 500W
+Output voltage (sustained): up to 100V
+Output current (sustained): up to 10A
+Ignition voltage: 5 kV
+Connectors
+DC input
+Electrode output
+Isolated USB
+Cortex Debug
+Telemetry Readings
+Input voltage
+Input current (maybe)
+Output voltage
+Output current
+Half bridge duty cycle
+Board temperature (maybe multiple readings)
+Fault conditions
+Arc Start detection 
+Faults
+Overtemperature
+Input overcurrent
+Output overcurrent
+Ignition failure
+TVS activated
+Output voltage collapse (short circuit)
+MCU Pin Count
+System
+Crystal Out
+Crystal In
+VREF+
+Buttons/LEDs
+Reset Button
+BOOT0 Button
+User Button
+Status LED R (Timer Capable)
+Status LED G (Timer Capable)
+Status LED B (Timer Capable)
+Interfaces
+USB+
+USB-
+SWD_CLK
+SWD_IO
+SWO
+ADC
+Current Sense Load
+Current Sense HV Input
+Current Sense TVS (Hardware Comparator Capable)
+Voltage Sense Load
+Voltage Sense HV Input 
+Voltage Sense 12V Input
+Temp Sense Zone 1
+Temp Sense Zone 2
+Temp Sense Zone 3
+FET Control
+Half Bridge High (Motor Control Timer Capable)
+Half Bridge Low  (Motor Control Timer Capable)
+Shunt FET (Timer Capable)
+Component References
+USB Isolator: ADuM3160 or ADuM4160

@@ -1,0 +1,16 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "345d111e-966c-4b50-af4d-2c544889963d")
+	(paper "A4")
+	(title_block
+		(title "Arc Jet PU (Power Unit)")
+		(date "2026-10-29")
+		(rev "1.0")
+		(company "Rutgers Capstone ECE 2026-2027")
+		(comment 1 "Mark Tymoshenko mat399@scarletmail.rutgers.edu")
+		(comment 2 "Cy Westbrook")
+	)
+	(lib_symbols)
+)

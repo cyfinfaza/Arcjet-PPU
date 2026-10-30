@@ -4,6 +4,14 @@
 	(generator_version "10.0")
 	(uuid "519c17db-dba2-457e-a373-929d7ad1e2d0")
 	(paper "A4")
+	(title_block
+		(title "Arc Jet PU (Power Unit)")
+		(date "2026-10-29")
+		(rev "1.0")
+		(company "Rutgers Capstone ECE 2026-2027")
+		(comment 1 "Mark Tymoshenko mat399@scarletmail.rutgers.edu")
+		(comment 2 "Cy Westbrook")
+	)
 	(lib_symbols
 		(symbol "Device:R"
 			(pin_numbers
@@ -541,7 +549,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3b9ac114-2338-44cf-b600-fd90ec99665d")
-		(property "Reference" "R5"
+		(property "Reference" "R11"
 			(at 151.13 87.884 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -595,26 +603,26 @@
 			)
 		)
 		(pin "2"
-			(uuid "00d11f1c-744a-4ac4-b9d2-986a3d179391")
+			(uuid "726474bc-b87f-4172-8041-65cd76c84544")
 		)
 		(pin "1"
-			(uuid "4ea40800-0e20-47fa-9231-ae15a7643a59")
+			(uuid "dcfcd3ff-b5de-4540-9b99-069e90491e3c")
 		)
 		(instances
 			(project "Arcjet-PPU"
-				(path "/a26094a8-870e-4d79-a298-19a2c7b26655/1ff5d421-dfac-490f-b230-bb532702cb90/1462f3fc-c77a-4020-babf-9c1e874adae4"
+				(path "/a26094a8-870e-4d79-a298-19a2c7b26655/3b902dd1-f160-4711-ad5c-803c38714d8b/8b541bd0-7703-41c7-b1bc-19a6eec4959f/1462f3fc-c77a-4020-babf-9c1e874adae4"
 					(reference "R11")
 					(unit 1)
 				)
-				(path "/a26094a8-870e-4d79-a298-19a2c7b26655/1ff5d421-dfac-490f-b230-bb532702cb90/6ed8d3e8-172a-454e-91a1-212a5b405cd8"
+				(path "/a26094a8-870e-4d79-a298-19a2c7b26655/3b902dd1-f160-4711-ad5c-803c38714d8b/8b541bd0-7703-41c7-b1bc-19a6eec4959f/6ed8d3e8-172a-454e-91a1-212a5b405cd8"
 					(reference "R7")
 					(unit 1)
 				)
-				(path "/a26094a8-870e-4d79-a298-19a2c7b26655/1ff5d421-dfac-490f-b230-bb532702cb90/95a68da6-4437-469b-a050-26966337937e"
+				(path "/a26094a8-870e-4d79-a298-19a2c7b26655/3b902dd1-f160-4711-ad5c-803c38714d8b/8b541bd0-7703-41c7-b1bc-19a6eec4959f/95a68da6-4437-469b-a050-26966337937e"
 					(reference "R9")
 					(unit 1)
 				)
-				(path "/a26094a8-870e-4d79-a298-19a2c7b26655/1ff5d421-dfac-490f-b230-bb532702cb90/cf5b497f-d460-45bc-b512-00017b3e4ab3"
+				(path "/a26094a8-870e-4d79-a298-19a2c7b26655/3b902dd1-f160-4711-ad5c-803c38714d8b/8b541bd0-7703-41c7-b1bc-19a6eec4959f/cf5b497f-d460-45bc-b512-00017b3e4ab3"
 					(reference "R5")
 					(unit 1)
 				)
@@ -632,7 +640,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8c395885-88e8-4a2a-9842-df0815a314ab")
-		(property "Reference" "D3"
+		(property "Reference" "D6"
 			(at 156.21 78.486 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -708,26 +716,26 @@
 			)
 		)
 		(pin "1"
-			(uuid "08cbb10b-686d-4bef-ae73-55ccb3b605ec")
+			(uuid "aa669da9-4b21-4634-91c4-327cea0eb584")
 		)
 		(pin "2"
-			(uuid "02bb7f17-b67e-4831-a839-85142859da55")
+			(uuid "b68012de-9a28-47b7-8a49-a7d7c2db0ecb")
 		)
 		(instances
 			(project "Arcjet-PPU"
-				(path "/a26094a8-870e-4d79-a298-19a2c7b26655/1ff5d421-dfac-490f-b230-bb532702cb90/1462f3fc-c77a-4020-babf-9c1e874adae4"
+				(path "/a26094a8-870e-4d79-a298-19a2c7b26655/3b902dd1-f160-4711-ad5c-803c38714d8b/8b541bd0-7703-41c7-b1bc-19a6eec4959f/1462f3fc-c77a-4020-babf-9c1e874adae4"
 					(reference "D6")
 					(unit 1)
 				)
-				(path "/a26094a8-870e-4d79-a298-19a2c7b26655/1ff5d421-dfac-490f-b230-bb532702cb90/6ed8d3e8-172a-454e-91a1-212a5b405cd8"
+				(path "/a26094a8-870e-4d79-a298-19a2c7b26655/3b902dd1-f160-4711-ad5c-803c38714d8b/8b541bd0-7703-41c7-b1bc-19a6eec4959f/6ed8d3e8-172a-454e-91a1-212a5b405cd8"
 					(reference "D4")
 					(unit 1)
 				)
-				(path "/a26094a8-870e-4d79-a298-19a2c7b26655/1ff5d421-dfac-490f-b230-bb532702cb90/95a68da6-4437-469b-a050-26966337937e"
+				(path "/a26094a8-870e-4d79-a298-19a2c7b26655/3b902dd1-f160-4711-ad5c-803c38714d8b/8b541bd0-7703-41c7-b1bc-19a6eec4959f/95a68da6-4437-469b-a050-26966337937e"
 					(reference "D5")
 					(unit 1)
 				)
-				(path "/a26094a8-870e-4d79-a298-19a2c7b26655/1ff5d421-dfac-490f-b230-bb532702cb90/cf5b497f-d460-45bc-b512-00017b3e4ab3"
+				(path "/a26094a8-870e-4d79-a298-19a2c7b26655/3b902dd1-f160-4711-ad5c-803c38714d8b/8b541bd0-7703-41c7-b1bc-19a6eec4959f/cf5b497f-d460-45bc-b512-00017b3e4ab3"
 					(reference "D3")
 					(unit 1)
 				)
@@ -745,7 +753,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c308cd11-9aea-4fd8-bf73-6111c97b9f79")
-		(property "Reference" "R4"
+		(property "Reference" "R10"
 			(at 143.51 78.994 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -799,26 +807,26 @@
 			)
 		)
 		(pin "2"
-			(uuid "2c556434-b449-446b-aa41-172ac58dc3d5")
+			(uuid "1ed79568-a685-4dbd-bcbe-861d1ae53c33")
 		)
 		(pin "1"
-			(uuid "7951793f-481f-4c15-9265-504b2cf6f880")
+			(uuid "dc844dea-97b5-4780-a138-c9b7a96a9852")
 		)
 		(instances
 			(project "Arcjet-PPU"
-				(path "/a26094a8-870e-4d79-a298-19a2c7b26655/1ff5d421-dfac-490f-b230-bb532702cb90/1462f3fc-c77a-4020-babf-9c1e874adae4"
+				(path "/a26094a8-870e-4d79-a298-19a2c7b26655/3b902dd1-f160-4711-ad5c-803c38714d8b/8b541bd0-7703-41c7-b1bc-19a6eec4959f/1462f3fc-c77a-4020-babf-9c1e874adae4"
 					(reference "R10")
 					(unit 1)
 				)
-				(path "/a26094a8-870e-4d79-a298-19a2c7b26655/1ff5d421-dfac-490f-b230-bb532702cb90/6ed8d3e8-172a-454e-91a1-212a5b405cd8"
+				(path "/a26094a8-870e-4d79-a298-19a2c7b26655/3b902dd1-f160-4711-ad5c-803c38714d8b/8b541bd0-7703-41c7-b1bc-19a6eec4959f/6ed8d3e8-172a-454e-91a1-212a5b405cd8"
 					(reference "R6")
 					(unit 1)
 				)
-				(path "/a26094a8-870e-4d79-a298-19a2c7b26655/1ff5d421-dfac-490f-b230-bb532702cb90/95a68da6-4437-469b-a050-26966337937e"
+				(path "/a26094a8-870e-4d79-a298-19a2c7b26655/3b902dd1-f160-4711-ad5c-803c38714d8b/8b541bd0-7703-41c7-b1bc-19a6eec4959f/95a68da6-4437-469b-a050-26966337937e"
 					(reference "R8")
 					(unit 1)
 				)
-				(path "/a26094a8-870e-4d79-a298-19a2c7b26655/1ff5d421-dfac-490f-b230-bb532702cb90/cf5b497f-d460-45bc-b512-00017b3e4ab3"
+				(path "/a26094a8-870e-4d79-a298-19a2c7b26655/3b902dd1-f160-4711-ad5c-803c38714d8b/8b541bd0-7703-41c7-b1bc-19a6eec4959f/cf5b497f-d460-45bc-b512-00017b3e4ab3"
 					(reference "R4")
 					(unit 1)
 				)
