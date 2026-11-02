@@ -521,59 +521,7 @@
       "version": 5
     },
     "net_colors": {},
-    "netclass_assignments": {
-      "/Constant Current Supply/Half Bridge/GD_HIGH": [
-        "HV"
-      ],
-      "/Constant Current Supply/Half Bridge/GD_LOW": [
-        "HV"
-      ],
-      "/Constant Current Supply/Half Bridge/Gate Resistors/Gate": [
-        "HV"
-      ],
-      "/Constant Current Supply/Half Bridge/Gate Resistors1/Gate": [
-        "HV"
-      ],
-      "/Constant Current Supply/Half Bridge/Gate Resistors2/Gate": [
-        "HV"
-      ],
-      "/Constant Current Supply/Half Bridge/Gate Resistors3/Gate": [
-        "HV"
-      ],
-      "/Constant Current Supply/Half Bridge/PHASE": [
-        "HV_CC"
-      ],
-      "Net-(D1-K)": [
-        "HV_CC"
-      ],
-      "Net-(D2-A1)": [
-        "HV_HF"
-      ],
-      "Net-(D3-K)": [
-        "HV"
-      ],
-      "Net-(D4-K)": [
-        "HV"
-      ],
-      "Net-(D5-K)": [
-        "HV"
-      ],
-      "Net-(D6-K)": [
-        "HV"
-      ],
-      "Net-(R14-Pad2)": [
-        "HV_HF"
-      ],
-      "Net-(R18-Pad2)": [
-        "HV_HF"
-      ],
-      "Net-(R19-Pad2)": [
-        "HV_HF"
-      ],
-      "Net-(U1-HB)": [
-        "HV_CC"
-      ]
-    },
+    "netclass_assignments": {},
     "netclass_patterns": []
   },
   "pcbnew": {
@@ -714,26 +662,6 @@
       "Arcjet-PPU"
     ],
     [
-      "8b541bd0-7703-41c7-b1bc-19a6eec4959f",
-      "Half Bridge"
-    ],
-    [
-      "1462f3fc-c77a-4020-babf-9c1e874adae4",
-      "Gate Resistors3"
-    ],
-    [
-      "95a68da6-4437-469b-a050-26966337937e",
-      "Gate Resistors2"
-    ],
-    [
-      "6ed8d3e8-172a-454e-91a1-212a5b405cd8",
-      "Gate Resistors1"
-    ],
-    [
-      "cf5b497f-d460-45bc-b512-00017b3e4ab3",
-      "Gate Resistors"
-    ],
-    [
       "0829f565-76fd-4cd6-94ea-788a24ce00bf",
       "Micro"
     ],
@@ -744,14 +672,6 @@
     [
       "2e7fa251-70ac-41fd-b058-c882c0469f37",
       "IO"
-    ],
-    [
-      "3e6aca07-d980-49d2-a16e-67b407be17e6",
-      "Indicator LED 1"
-    ],
-    [
-      "3576fbb1-ae31-479f-880d-7eaa678f0232",
-      "Indicator LED 2"
     ]
   ],
   "text_variables": {},

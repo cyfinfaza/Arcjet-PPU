@@ -1,0 +1,499 @@
+(kicad_symbol_lib
+	(version 20241209)
+	(generator "kiporter")
+	(symbol "INA281A2QDBVRQ1"
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "U"
+			(id 0)
+			(at 0 7.62 0)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Value" "INA281A2QDBVRQ1"
+			(id 1)
+			(at 0 -7.62 0)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Footprint" "Project_Parts:SOT-23-5_L2.9-W1.6-P0.95-LS2.8-BR"
+			(id 2)
+			(at 0 -10.16 0)
+			(effects
+				(font (size 1.27 1.27))
+				hide
+			)
+		)
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2302281200_Texas-Instruments-INA281A2QDBVRQ1_C2908677.pdf"
+			(id 3)
+			(at 0 -12.70 0)
+			(effects
+				(font (size 1.27 1.27))
+				hide
+			)
+		)
+		(property "Description" "Current Sense Amplifiers, 55uV, 1uV/℃, 2.7V~20V, 2.5V/us, 120dB, ±12V, 1, -4V~110V, SOT-23-5"
+			(at 0 0 0)
+			(effects
+				(font (size 1.27 1.27))
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Texas Instruments"
+			(id 4)
+			(at 0 -15.24 0)
+			(effects
+				(font (size 1.27 1.27))
+				hide
+			)
+		)
+		(property "MPN" "INA281A2QDBVRQ1"
+			(id 5)
+			(at 0 -17.78 0)
+			(effects
+				(font (size 1.27 1.27))
+				hide
+			)
+		)
+		(property "Package" "SOT-23-5"
+			(at 0 0 0)
+			(effects
+				(font (size 1.27 1.27))
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C2908677"
+			(id 6)
+			(at 0 -20.32 0)
+			(effects
+				(font (size 1.27 1.27))
+				hide
+			)
+		)
+		(symbol "INA281A2QDBVRQ1_0_1"
+			(rectangle
+				(start -6.35 5.08)
+				(end 6.35 -5.08)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill (type background))
+			)
+			(circle
+				(center -5.08 3.81)
+				(radius 0.38)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill (type none))
+			)
+			(pin power_in line
+				(at 8.89 2.54 180)
+				(length 2.54)
+				(name "VS"
+					(effects (font (size 1.27 1.27)))
+				)
+				(number "5"
+					(effects (font (size 1.27 1.27)))
+				)
+			)
+			(pin input line
+				(at 8.89 -2.54 180)
+				(length 2.54)
+				(name "IN-"
+					(effects (font (size 1.27 1.27)))
+				)
+				(number "4"
+					(effects (font (size 1.27 1.27)))
+				)
+			)
+			(pin input line
+				(at -8.89 -2.54 0)
+				(length 2.54)
+				(name "IN+"
+					(effects (font (size 1.27 1.27)))
+				)
+				(number "3"
+					(effects (font (size 1.27 1.27)))
+				)
+			)
+			(pin power_in line
+				(at -8.89 -0.00 0)
+				(length 2.54)
+				(name "GND"
+					(effects (font (size 1.27 1.27)))
+				)
+				(number "2"
+					(effects (font (size 1.27 1.27)))
+				)
+			)
+			(pin output line
+				(at -8.89 2.54 0)
+				(length 2.54)
+				(name "OUT"
+					(effects (font (size 1.27 1.27)))
+				)
+				(number "1"
+					(effects (font (size 1.27 1.27)))
+				)
+			)
+		)
+	)
+	(symbol "IPB107N20N3G"
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "Q"
+			(id 0)
+			(at 0 10.16 0)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Value" "IPB107N20N3G"
+			(id 1)
+			(at 0 -10.16 0)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Footprint" "Project_Parts:TO-263-3_L10.2-W10.7-P5.08-LS16.2-BR"
+			(id 2)
+			(at 0 -12.70 0)
+			(effects
+				(font (size 1.27 1.27))
+				hide
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Infineon-Technologies-IPB107N20N3G_C444895.pdf"
+			(id 3)
+			(at 0 -15.24 0)
+			(effects
+				(font (size 1.27 1.27))
+				hide
+			)
+		)
+		(property "Description" "MOSFETs, N-Channel, ±20V, 87nC@10V, 533pF, 88A, 200V, 401pF, 10.7mΩ@10V, TO-263-3"
+			(at 0 0 0)
+			(effects
+				(font (size 1.27 1.27))
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Infineon Technologies"
+			(id 4)
+			(at 0 -17.78 0)
+			(effects
+				(font (size 1.27 1.27))
+				hide
+			)
+		)
+		(property "MPN" "IPB107N20N3G"
+			(id 5)
+			(at 0 -20.32 0)
+			(effects
+				(font (size 1.27 1.27))
+				hide
+			)
+		)
+		(property "Package" "TO-263-3"
+			(at 0 0 0)
+			(effects
+				(font (size 1.27 1.27))
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C444895"
+			(id 6)
+			(at 0 -22.86 0)
+			(effects
+				(font (size 1.27 1.27))
+				hide
+			)
+		)
+		(property "ki_keywords" "MOSFETs"
+			(id 8)
+			(at 0 -25.40 0)
+			(effects
+				(font (size 1.27 1.27))
+				hide
+			)
+		)
+		(symbol "IPB107N20N3G_0_1"
+			(polyline
+				(pts
+					(xy -1.27 1.78)
+					(xy 1.27 1.78)
+					(xy 1.27 2.54)
+					(xy 3.81 2.54)
+					(xy 3.81 0.51)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill (type none))
+			)
+			(polyline
+				(pts
+					(xy -1.27 -0.00)
+					(xy 1.27 -0.00)
+					(xy 1.27 -2.54)
+					(xy 3.81 -2.54)
+					(xy 3.81 -0.76)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill (type none))
+			)
+			(polyline
+				(pts
+					(xy 1.27 -1.78)
+					(xy -1.27 -1.78)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill (type none))
+			)
+			(polyline
+				(pts
+					(xy -1.78 2.29)
+					(xy -1.78 -2.29)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill (type none))
+			)
+			(polyline
+				(pts
+					(xy -1.27 2.29)
+					(xy -1.27 1.27)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill (type none))
+			)
+			(polyline
+				(pts
+					(xy -1.27 -0.51)
+					(xy -1.27 0.51)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill (type none))
+			)
+			(polyline
+				(pts
+					(xy -1.27 -2.29)
+					(xy -1.27 -1.27)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill (type none))
+			)
+			(polyline
+				(pts
+					(xy 2.96 0.57)
+					(xy 4.59 0.57)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill (type none))
+			)
+			(polyline
+				(pts
+					(xy -1.27 -0.00)
+					(xy 0.25 -0.51)
+					(xy 0.25 0.51)
+					(xy -1.27 -0.00)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill (type background))
+			)
+			(polyline
+				(pts
+					(xy 3.81 0.51)
+					(xy 3.05 -0.76)
+					(xy 4.57 -0.76)
+					(xy 3.81 0.51)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill (type background))
+			)
+			(pin passive line
+				(at 1.27 5.08 270)
+				(length 2.54)
+				(name "D"
+					(effects (font (size 1.27 1.27)))
+				)
+				(number "2"
+					(effects (font (size 1.27 1.27)))
+				)
+			)
+			(pin input line
+				(at -3.81 -0.00 0)
+				(length 2.54)
+				(name "G"
+					(effects (font (size 1.27 1.27)))
+				)
+				(number "1"
+					(effects (font (size 1.27 1.27)))
+				)
+			)
+			(pin passive line
+				(at 1.27 -5.08 90)
+				(length 2.54)
+				(name "S"
+					(effects (font (size 1.27 1.27)))
+				)
+				(number "3"
+					(effects (font (size 1.27 1.27)))
+				)
+			)
+		)
+	)
+	(symbol "UCC27834DR"
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "U"
+			(id 0)
+			(at 0 13.97 0)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Value" "UCC27834DR"
+			(id 1)
+			(at 0 -11.43 0)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Footprint" "Project_Parts:SOIC-8_L4.9-W3.9-P1.27-LS7.0-BL"
+			(id 2)
+			(at 0 -11.43 0)
+			(effects
+				(font (size 1.27 1.27))
+				hide
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C52091687.pdf"
+			(id 3)
+			(at 0 -13.97 0)
+			(effects
+				(font (size 1.27 1.27))
+				hide
+			)
+		)
+		(property "Description" "Gate Drivers 200-V 4-A/4-A Half- Bridge Driver with I"
+			(at 0 0 0)
+			(effects
+				(font (size 1.27 1.27))
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Texas Instruments"
+			(id 4)
+			(at 0 -16.51 0)
+			(effects
+				(font (size 1.27 1.27))
+				hide
+			)
+		)
+		(property "MPN" "UCC27834DR"
+			(id 5)
+			(at 0 -19.05 0)
+			(effects
+				(font (size 1.27 1.27))
+				hide
+			)
+		)
+		(property "Package" "-"
+			(at 0 0 0)
+			(effects
+				(font (size 1.27 1.27))
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C52091687"
+			(id 6)
+			(at 0 -21.59 0)
+			(effects
+				(font (size 1.27 1.27))
+				hide
+			)
+		)
+		(property "Mouser PN" "595-UCC27834DR"
+			(at 0 0 0)
+			(effects
+				(font (size 1.27 1.27))
+				(hide yes)
+			)
+		)
+		(symbol "UCC27834DR_0_1"
+			(rectangle (start -7.62 11.43) (end 7.62 -8.89)
+				(stroke (width 0.254) (type default))
+				(fill (type background))
+			)
+			(pin power_in line
+				(at -10.16 10.16 0)
+				(length 2.54)
+				(name "VDD" (effects (font (size 1.27 1.27))))
+				(number "1" (effects (font (size 1.27 1.27))))
+			)
+			(pin input line
+				(at -10.16 2.54 0)
+				(length 2.54)
+				(name "HI" (effects (font (size 1.27 1.27))))
+				(number "5" (effects (font (size 1.27 1.27))))
+			)
+			(pin input line
+				(at -10.16 0 0)
+				(length 2.54)
+				(name "LI" (effects (font (size 1.27 1.27))))
+				(number "6" (effects (font (size 1.27 1.27))))
+			)
+			(pin power_in line
+				(at -10.16 -7.62 0)
+				(length 2.54)
+				(name "VSS" (effects (font (size 1.27 1.27))))
+				(number "7" (effects (font (size 1.27 1.27))))
+			)
+			(pin output line
+				(at 10.16 10.16 180)
+				(length 2.54)
+				(name "HO" (effects (font (size 1.27 1.27))))
+				(number "3" (effects (font (size 1.27 1.27))))
+			)
+			(pin passive line
+				(at 10.16 2.54 180)
+				(length 2.54)
+				(name "HB" (effects (font (size 1.27 1.27))))
+				(number "2" (effects (font (size 1.27 1.27))))
+			)
+			(pin passive line
+				(at 10.16 -5.08 180)
+				(length 2.54)
+				(name "HS" (effects (font (size 1.27 1.27))))
+				(number "4" (effects (font (size 1.27 1.27))))
+			)
+			(pin output line
+				(at 10.16 -7.62 180)
+				(length 2.54)
+				(name "LO" (effects (font (size 1.27 1.27))))
+				(number "8" (effects (font (size 1.27 1.27))))
+			)
+		)
+	)
+)
