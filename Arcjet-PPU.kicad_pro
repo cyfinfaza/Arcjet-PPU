@@ -705,7 +705,7 @@
         "uuid": "a26094a8-870e-4d79-a298-19a2c7b26655"
       }
     ],
-    "used_designators": "#PWR1-14,C1-13,D1-11,J1,L1,Q1-5,R1-21,U1-3",
+    "used_designators": "#PWR1-32,#PWR74,#PWR78,BT1,C1-21,C31,C35,D1-12,J1-3,L1-2,Q1-5,R1-26,S1-3,U1-4,Y1-2",
     "variants": []
   },
   "sheets": [
@@ -744,6 +744,14 @@
     [
       "2e7fa251-70ac-41fd-b058-c882c0469f37",
       "IO"
+    ],
+    [
+      "3e6aca07-d980-49d2-a16e-67b407be17e6",
+      "Indicator LED 1"
+    ],
+    [
+      "3576fbb1-ae31-479f-880d-7eaa678f0232",
+      "Indicator LED 2"
     ]
   ],
   "text_variables": {},
