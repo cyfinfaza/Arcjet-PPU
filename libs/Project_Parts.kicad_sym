@@ -442,588 +442,1482 @@
 			)
 		)
 		(symbol "UCC27834DR_0_1"
-			(rectangle (start -7.62 11.43) (end 7.62 -8.89)
-				(stroke (width 0.254) (type default))
+			(rectangle
+				(start -7.62 11.43)
+				(end 7.62 -8.89)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
 				(fill (type background))
 			)
 			(pin power_in line
 				(at -10.16 10.16 0)
 				(length 2.54)
-				(name "VDD" (effects (font (size 1.27 1.27))))
-				(number "1" (effects (font (size 1.27 1.27))))
+				(name "VDD"
+					(effects (font (size 1.27 1.27)))
+				)
+				(number "1"
+					(effects (font (size 1.27 1.27)))
+				)
 			)
 			(pin input line
 				(at -10.16 2.54 0)
 				(length 2.54)
-				(name "HI" (effects (font (size 1.27 1.27))))
-				(number "5" (effects (font (size 1.27 1.27))))
+				(name "HI"
+					(effects (font (size 1.27 1.27)))
+				)
+				(number "5"
+					(effects (font (size 1.27 1.27)))
+				)
 			)
 			(pin input line
 				(at -10.16 0 0)
 				(length 2.54)
-				(name "LI" (effects (font (size 1.27 1.27))))
-				(number "6" (effects (font (size 1.27 1.27))))
+				(name "LI"
+					(effects (font (size 1.27 1.27)))
+				)
+				(number "6"
+					(effects (font (size 1.27 1.27)))
+				)
 			)
 			(pin power_in line
 				(at -10.16 -7.62 0)
 				(length 2.54)
-				(name "VSS" (effects (font (size 1.27 1.27))))
-				(number "7" (effects (font (size 1.27 1.27))))
+				(name "VSS"
+					(effects (font (size 1.27 1.27)))
+				)
+				(number "7"
+					(effects (font (size 1.27 1.27)))
+				)
 			)
 			(pin output line
 				(at 10.16 10.16 180)
 				(length 2.54)
-				(name "HO" (effects (font (size 1.27 1.27))))
-				(number "3" (effects (font (size 1.27 1.27))))
+				(name "HO"
+					(effects (font (size 1.27 1.27)))
+				)
+				(number "3"
+					(effects (font (size 1.27 1.27)))
+				)
 			)
 			(pin passive line
 				(at 10.16 2.54 180)
 				(length 2.54)
-				(name "HB" (effects (font (size 1.27 1.27))))
-				(number "2" (effects (font (size 1.27 1.27))))
+				(name "HB"
+					(effects (font (size 1.27 1.27)))
+				)
+				(number "2"
+					(effects (font (size 1.27 1.27)))
+				)
 			)
 			(pin passive line
 				(at 10.16 -5.08 180)
 				(length 2.54)
-				(name "HS" (effects (font (size 1.27 1.27))))
-				(number "4" (effects (font (size 1.27 1.27))))
+				(name "HS"
+					(effects (font (size 1.27 1.27)))
+				)
+				(number "4"
+					(effects (font (size 1.27 1.27)))
+				)
 			)
 			(pin output line
 				(at 10.16 -7.62 180)
 				(length 2.54)
-				(name "LO" (effects (font (size 1.27 1.27))))
-				(number "8" (effects (font (size 1.27 1.27))))
+				(name "LO"
+					(effects (font (size 1.27 1.27)))
+				)
+				(number "8"
+					(effects (font (size 1.27 1.27)))
+				)
 			)
 		)
 	)
-	(symbol "UCC27712DR"
+	(symbol "PTS645SM43SMTR92LFS"
 		(in_bom yes)
 		(on_board yes)
-		(property "Reference" "U"
+		(property "Reference" "SW"
 			(id 0)
-			(at 0 13.97 0)
+			(at 0 8.89 0)
 			(effects (font (size 1.27 1.27)))
 		)
-		(property "Value" "UCC27712DR"
+		(property "Value" "PTS645SM43SMTR92LFS"
 			(id 1)
 			(at 0 -11.43 0)
 			(effects (font (size 1.27 1.27)))
 		)
-		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+		(property "Footprint" "Project_Parts:KEY-SMD_4P-L6.0-W6.0-P4.50-LS9.0"
 			(id 2)
-			(at 0 -11.43 0)
-			(effects
-				(font (size 1.27 1.27))
-				hide
-			)
-		)
-		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/ucc27712.pdf"
-			(id 3)
 			(at 0 -13.97 0)
 			(effects
 				(font (size 1.27 1.27))
 				hide
 			)
 		)
-		(property "Description" "620-V 1.8-A/2.8-A half-bridge gate driver with interlock, SOIC-8"
-			(at 0 0 0)
-			(effects
-				(font (size 1.27 1.27))
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Texas Instruments"
-			(id 4)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2410121928_C-K-PTS645SM43SMTR92LFS_C221880.pdf"
+			(id 3)
 			(at 0 -16.51 0)
 			(effects
 				(font (size 1.27 1.27))
 				hide
 			)
 		)
-		(property "MPN" "UCC27712DR"
-			(id 5)
-			(at 0 -19.05 0)
-			(effects
-				(font (size 1.27 1.27))
-				hide
-			)
-		)
-		(property "Package" "-"
+		(property "Description" "Tactile Switches, Surface Mount,Vertical, 12V, 1.6N, 50mA, 6mm, Gull Wing, Round Button, 4.3mm, SMD-4P,6x6mm"
 			(at 0 0 0)
 			(effects
 				(font (size 1.27 1.27))
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C485818"
-			(id 6)
+		(property "Manufacturer" "C&K"
+			(id 4)
+			(at 0 -19.05 0)
+			(effects
+				(font (size 1.27 1.27))
+				hide
+			)
+		)
+		(property "MPN" "PTS645SM43SMTR92LFS"
+			(id 5)
 			(at 0 -21.59 0)
 			(effects
 				(font (size 1.27 1.27))
 				hide
 			)
 		)
-		(symbol "UCC27712DR_0_1"
-			(rectangle (start -7.62 11.43) (end 7.62 -8.89)
-				(stroke (width 0.254) (type default))
-				(fill (type background))
-			)
-			(pin power_in line
-				(at -10.16 10.16 0)
-				(length 2.54)
-				(name "VDD" (effects (font (size 1.27 1.27))))
-				(number "3" (effects (font (size 1.27 1.27))))
-			)
-			(pin input line
-				(at -10.16 2.54 0)
-				(length 2.54)
-				(name "HI" (effects (font (size 1.27 1.27))))
-				(number "2" (effects (font (size 1.27 1.27))))
-			)
-			(pin input line
-				(at -10.16 0 0)
-				(length 2.54)
-				(name "LI" (effects (font (size 1.27 1.27))))
-				(number "1" (effects (font (size 1.27 1.27))))
-			)
-			(pin power_in line
-				(at -10.16 -7.62 0)
-				(length 2.54)
-				(name "COM" (effects (font (size 1.27 1.27))))
-				(number "4" (effects (font (size 1.27 1.27))))
-			)
-			(pin output line
-				(at 10.16 10.16 180)
-				(length 2.54)
-				(name "HO" (effects (font (size 1.27 1.27))))
-				(number "7" (effects (font (size 1.27 1.27))))
-			)
-			(pin passive line
-				(at 10.16 2.54 180)
-				(length 2.54)
-				(name "HB" (effects (font (size 1.27 1.27))))
-				(number "8" (effects (font (size 1.27 1.27))))
-			)
-			(pin passive line
-				(at 10.16 -5.08 180)
-				(length 2.54)
-				(name "HS" (effects (font (size 1.27 1.27))))
-				(number "6" (effects (font (size 1.27 1.27))))
-			)
-			(pin output line
-				(at 10.16 -7.62 180)
-				(length 2.54)
-				(name "LO" (effects (font (size 1.27 1.27))))
-				(number "5" (effects (font (size 1.27 1.27))))
-			)
-		)
-	)
-	(symbol "PTS645SM43SMTR92LFS"
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(duplicate_pin_numbers_are_jumpers no)
-		(property "Reference" "S"
-			(at 26.67 7.62 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Value" "PTS645SM43SMTR92LFS"
-			(at 26.67 5.08 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Footprint" "Project_Parts:SW_PTS645SM43SMTR92_4Pad"
-			(at 26.67 -94.92 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Datasheet" "https://www.ckswitches.com/media/1471/pts645.pdf"
-			(at 26.67 -194.92 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Description" "Tactile switch SPST-NO 6x6mm SMD, 4 terminals"
+		(property "Package" "SMD-4P,6x6mm"
 			(at 0 0 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(hide yes)
 			(effects
-				(font
-					(size 1.27 1.27)
-				)
+				(font (size 1.27 1.27))
+				(hide yes)
 			)
 		)
-		(symbol "PTS645SM43SMTR92LFS_1_1"
-			(rectangle
-				(start 5.08 2.54)
-				(end 25.4 -5.08)
+		(property "LCSC Part" "C221880"
+			(id 6)
+			(at 0 -24.13 0)
+			(effects
+				(font (size 1.27 1.27))
+				hide
+			)
+		)
+		(property "ki_keywords" "Tactile Switches"
+			(id 8)
+			(at 0 -26.67 0)
+			(effects
+				(font (size 1.27 1.27))
+				hide
+			)
+		)
+		(symbol "PTS645SM43SMTR92LFS_0_1"
+			(circle
+				(center 0.00 -3.30)
+				(radius 0.51)
 				(stroke
-					(width 0.254)
+					(width 0)
 					(type default)
 				)
-				(fill
-					(type background)
+				(fill (type none))
+			)
+			(circle
+				(center 0.00 0.76)
+				(radius 0.51)
+				(stroke
+					(width 0)
+					(type default)
 				)
+				(fill (type none))
+			)
+			(polyline
+				(pts
+					(xy 5.08 -6.35)
+					(xy -5.08 -6.35)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill (type none))
+			)
+			(polyline
+				(pts
+					(xy 0.00 -6.35)
+					(xy 0.00 -3.81)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill (type none))
+			)
+			(polyline
+				(pts
+					(xy 5.08 3.81)
+					(xy -5.08 3.81)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill (type none))
+			)
+			(polyline
+				(pts
+					(xy 0.00 3.81)
+					(xy 0.00 1.27)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill (type none))
+			)
+			(polyline
+				(pts
+					(xy -0.51 -3.56)
+					(xy -1.78 0.76)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill (type none))
 			)
 			(pin passive line
-				(at 0 0 0)
-				(length 5.08)
-				(name "COM_1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
+				(at -7.62 3.81 0)
+				(length 2.54)
+				(name "1"
+					(effects (font (size 1.27 1.27)))
 				)
 				(number "1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
+					(effects (font (size 1.27 1.27)))
 				)
 			)
 			(pin passive line
-				(at 30.48 0 180)
-				(length 5.08)
-				(name "COM_2"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
+				(at 7.62 3.81 180)
+				(length 2.54)
+				(name "2"
+					(effects (font (size 1.27 1.27)))
 				)
 				(number "2"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
+					(effects (font (size 1.27 1.27)))
 				)
 			)
 			(pin passive line
-				(at 0 -2.54 0)
-				(length 5.08)
-				(name "NO_1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
+				(at -7.62 -6.35 0)
+				(length 2.54)
+				(name "3"
+					(effects (font (size 1.27 1.27)))
 				)
 				(number "3"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
+					(effects (font (size 1.27 1.27)))
 				)
 			)
 			(pin passive line
-				(at 30.48 -2.54 180)
-				(length 5.08)
-				(name "NO_2"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
+				(at 7.62 -6.35 180)
+				(length 2.54)
+				(name "4"
+					(effects (font (size 1.27 1.27)))
 				)
 				(number "4"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
+					(effects (font (size 1.27 1.27)))
 				)
 			)
 		)
-		(embedded_fonts no)
 	)
 	(symbol "FTSH-105-01-L-DV-K"
-		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(in_pos_files yes)
-		(duplicate_pin_numbers_are_jumpers no)
-		(property "Reference" "J"
-			(at 19.05 7.62 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
+		(property "Reference" "H"
+			(id 0)
+			(at 0 10.16 0)
+			(effects (font (size 1.27 1.27)))
 		)
 		(property "Value" "FTSH-105-01-L-DV-K"
-			(at 19.05 5.08 0)
-			(show_name no)
-			(do_not_autoplace no)
+			(id 1)
+			(at 0 -10.16 0)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Footprint" "Project_Parts:HDR-SMD_10P-P1.27-V-R2-C5-S5.8"
+			(id 2)
+			(at 0 -12.70 0)
 			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
+				(font (size 1.27 1.27))
+				hide
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_1.27mm:PinHeader_2x05_P1.27mm_Vertical_SMD"
-			(at 19.05 -94.92 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(hide yes)
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2311161803_Samtec-FTSH-105-01-L-DV-K_C5155080.pdf"
+			(id 3)
+			(at 0 -15.24 0)
 			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
+				(font (size 1.27 1.27))
+				hide
 			)
 		)
-		(property "Datasheet" "https://suddendocs.samtec.com/productspecs/ftsh.pdf"
-			(at 19.05 -194.92 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Description" "2x5 1.27mm SMD header, Cortex debug"
+		(property "Description" "Pin Headers, 10P, 1.27mm, Surface Mount,Vertical, 3.4A, Gold, 2.92mm, 2x5P, 3.05mm, SMD,P=1.27mm"
 			(at 0 0 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(hide yes)
 			(effects
-				(font
-					(size 1.27 1.27)
-				)
+				(font (size 1.27 1.27))
+				(hide yes)
 			)
 		)
-		(symbol "FTSH-105-01-L-DV-K_1_1"
+		(property "Manufacturer" "Samtec"
+			(id 4)
+			(at 0 -17.78 0)
+			(effects
+				(font (size 1.27 1.27))
+				hide
+			)
+		)
+		(property "MPN" "FTSH-105-01-L-DV-K"
+			(id 5)
+			(at 0 -20.32 0)
+			(effects
+				(font (size 1.27 1.27))
+				hide
+			)
+		)
+		(property "Package" "SMD,P=1.27mm"
+			(at 0 0 0)
+			(effects
+				(font (size 1.27 1.27))
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C5155080"
+			(id 6)
+			(at 0 -22.86 0)
+			(effects
+				(font (size 1.27 1.27))
+				hide
+			)
+		)
+		(symbol "FTSH-105-01-L-DV-K_0_1"
 			(rectangle
-				(start 5.08 2.54)
-				(end 17.78 -12.7)
+				(start -3.81 7.62)
+				(end 3.81 -7.62)
 				(stroke
-					(width 0.254)
+					(width 0)
 					(type default)
 				)
-				(fill
-					(type background)
+				(fill (type background))
+			)
+			(circle
+				(center -2.54 6.35)
+				(radius 0.38)
+				(stroke
+					(width 0)
+					(type default)
 				)
+				(fill (type none))
 			)
 			(pin passive line
-				(at 0 0 0)
-				(length 5.08)
+				(at -6.35 5.08 0)
+				(length 2.54)
 				(name "1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
+					(effects (font (size 1.27 1.27)))
 				)
 				(number "1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
+					(effects (font (size 1.27 1.27)))
 				)
 			)
 			(pin passive line
-				(at 22.86 0 180)
-				(length 5.08)
-				(name "2"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "2"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 0 -2.54 0)
-				(length 5.08)
-				(name "3"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "3"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 22.86 -2.54 180)
-				(length 5.08)
-				(name "4"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "4"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 0 -5.08 0)
-				(length 5.08)
-				(name "5"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "5"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 22.86 -5.08 180)
-				(length 5.08)
-				(name "6"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "6"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 0 -7.62 0)
-				(length 5.08)
-				(name "7"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "7"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 22.86 -7.62 180)
-				(length 5.08)
-				(name "8"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "8"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 0 -10.16 0)
-				(length 5.08)
-				(name "9"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "9"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 22.86 -10.16 180)
-				(length 5.08)
+				(at 6.35 -5.08 180)
+				(length 2.54)
 				(name "10"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
+					(effects (font (size 1.27 1.27)))
 				)
 				(number "10"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
+					(effects (font (size 1.27 1.27)))
+				)
+			)
+			(pin passive line
+				(at -6.35 2.54 0)
+				(length 2.54)
+				(name "3"
+					(effects (font (size 1.27 1.27)))
+				)
+				(number "3"
+					(effects (font (size 1.27 1.27)))
+				)
+			)
+			(pin passive line
+				(at 6.35 -2.54 180)
+				(length 2.54)
+				(name "8"
+					(effects (font (size 1.27 1.27)))
+				)
+				(number "8"
+					(effects (font (size 1.27 1.27)))
+				)
+			)
+			(pin passive line
+				(at -6.35 -0.00 0)
+				(length 2.54)
+				(name "5"
+					(effects (font (size 1.27 1.27)))
+				)
+				(number "5"
+					(effects (font (size 1.27 1.27)))
+				)
+			)
+			(pin passive line
+				(at 6.35 -0.00 180)
+				(length 2.54)
+				(name "6"
+					(effects (font (size 1.27 1.27)))
+				)
+				(number "6"
+					(effects (font (size 1.27 1.27)))
+				)
+			)
+			(pin passive line
+				(at -6.35 -2.54 0)
+				(length 2.54)
+				(name "7"
+					(effects (font (size 1.27 1.27)))
+				)
+				(number "7"
+					(effects (font (size 1.27 1.27)))
+				)
+			)
+			(pin passive line
+				(at 6.35 2.54 180)
+				(length 2.54)
+				(name "4"
+					(effects (font (size 1.27 1.27)))
+				)
+				(number "4"
+					(effects (font (size 1.27 1.27)))
+				)
+			)
+			(pin passive line
+				(at -6.35 -5.08 0)
+				(length 2.54)
+				(name "9"
+					(effects (font (size 1.27 1.27)))
+				)
+				(number "9"
+					(effects (font (size 1.27 1.27)))
+				)
+			)
+			(pin passive line
+				(at 6.35 5.08 180)
+				(length 2.54)
+				(name "2"
+					(effects (font (size 1.27 1.27)))
+				)
+				(number "2"
+					(effects (font (size 1.27 1.27)))
 				)
 			)
 		)
-		(embedded_fonts no)
+	)
+	(symbol "IMBF170R650M1XTMA1"
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "U"
+			(id 0)
+			(at 0 10.16 0)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Value" "IMBF170R650M1XTMA1"
+			(id 1)
+			(at 0 -10.16 0)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Footprint" "Project_Parts:TO-263-7_L10.0-W9.3-P1.27-LS15.0-BL"
+			(id 2)
+			(at 0 -12.70 0)
+			(effects
+				(font (size 1.27 1.27))
+				hide
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2410121548_Infineon-Technologies-IMBF170R650M1XTMA1_C3289295.pdf"
+			(id 3)
+			(at 0 -15.24 0)
+			(effects
+				(font (size 1.27 1.27))
+				hide
+			)
+		)
+		(property "Description" "Silicon Carbide Field Effect Transistor (MOSFET), N-Channel, 422pF, 1 N-channel, 5.7V, 8nC, 1.1pF, 7.4A, 1.7kV, TO-263-7-13"
+			(at 0 0 0)
+			(effects
+				(font (size 1.27 1.27))
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Infineon Technologies"
+			(id 4)
+			(at 0 -17.78 0)
+			(effects
+				(font (size 1.27 1.27))
+				hide
+			)
+		)
+		(property "MPN" "IMBF170R650M1XTMA1"
+			(id 5)
+			(at 0 -20.32 0)
+			(effects
+				(font (size 1.27 1.27))
+				hide
+			)
+		)
+		(property "Package" "TO-263-7-13"
+			(at 0 0 0)
+			(effects
+				(font (size 1.27 1.27))
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C3289295"
+			(id 6)
+			(at 0 -22.86 0)
+			(effects
+				(font (size 1.27 1.27))
+				hide
+			)
+		)
+		(property "ki_keywords" "MOSFETs"
+			(id 8)
+			(at 0 -25.40 0)
+			(effects
+				(font (size 1.27 1.27))
+				hide
+			)
+		)
+		(symbol "IMBF170R650M1XTMA1_0_1"
+			(polyline
+				(pts
+					(xy -3.81 1.78)
+					(xy -1.27 1.78)
+					(xy -1.27 2.54)
+					(xy 1.27 2.54)
+					(xy 1.27 2.54)
+					(xy 1.27 0.51)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill (type none))
+			)
+			(polyline
+				(pts
+					(xy -3.81 -0.00)
+					(xy -1.27 -0.00)
+					(xy -1.27 -2.54)
+					(xy -6.35 -5.08)
+					(xy -1.27 -2.54)
+					(xy 8.89 -2.54)
+					(xy 1.27 -2.54)
+					(xy 1.27 -0.00)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill (type none))
+			)
+			(polyline
+				(pts
+					(xy -1.27 -1.78)
+					(xy -3.81 -1.78)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill (type none))
+			)
+			(polyline
+				(pts
+					(xy -4.32 2.29)
+					(xy -4.32 -2.29)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill (type none))
+			)
+			(polyline
+				(pts
+					(xy -3.81 2.29)
+					(xy -3.81 1.27)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill (type none))
+			)
+			(polyline
+				(pts
+					(xy -3.81 -0.51)
+					(xy -3.81 0.51)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill (type none))
+			)
+			(polyline
+				(pts
+					(xy -3.81 -2.29)
+					(xy -3.81 -1.27)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill (type none))
+			)
+			(polyline
+				(pts
+					(xy -6.35 -0.00)
+					(xy -4.32 -0.00)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill (type none))
+			)
+			(polyline
+				(pts
+					(xy 0.25 0.76)
+					(xy 0.76 0.76)
+					(xy 1.78 0.76)
+					(xy 2.29 0.76)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill (type none))
+			)
+			(polyline
+				(pts
+					(xy -3.81 -0.00)
+					(xy -2.29 -0.51)
+					(xy -2.29 0.51)
+					(xy -3.81 -0.00)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill (type background))
+			)
+			(polyline
+				(pts
+					(xy 1.27 0.76)
+					(xy 2.03 -0.51)
+					(xy 0.51 -0.51)
+					(xy 1.27 0.76)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill (type background))
+			)
+			(pin passive line
+				(at 8.89 -5.08 90)
+				(length 2.54)
+				(name "S"
+					(effects (font (size 1.27 1.27)))
+				)
+				(number "7"
+					(effects (font (size 1.27 1.27)))
+				)
+			)
+			(pin passive line
+				(at 6.35 -5.08 90)
+				(length 2.54)
+				(name "S"
+					(effects (font (size 1.27 1.27)))
+				)
+				(number "6"
+					(effects (font (size 1.27 1.27)))
+				)
+			)
+			(pin passive line
+				(at 3.81 -5.08 90)
+				(length 2.54)
+				(name "S"
+					(effects (font (size 1.27 1.27)))
+				)
+				(number "5"
+					(effects (font (size 1.27 1.27)))
+				)
+			)
+			(pin passive line
+				(at 1.27 -5.08 90)
+				(length 2.54)
+				(name "S"
+					(effects (font (size 1.27 1.27)))
+				)
+				(number "4"
+					(effects (font (size 1.27 1.27)))
+				)
+			)
+			(pin passive line
+				(at -8.89 -5.08 0)
+				(length 2.54)
+				(name "Sense"
+					(effects (font (size 1.27 1.27)))
+				)
+				(number "2"
+					(effects (font (size 1.27 1.27)))
+				)
+			)
+			(pin passive line
+				(at -1.27 5.08 270)
+				(length 2.54)
+				(name "D"
+					(effects (font (size 1.27 1.27)))
+				)
+				(number "8"
+					(effects (font (size 1.27 1.27)))
+				)
+			)
+			(pin passive line
+				(at -8.89 -0.00 0)
+				(length 2.54)
+				(name "G"
+					(effects (font (size 1.27 1.27)))
+				)
+				(number "1"
+					(effects (font (size 1.27 1.27)))
+				)
+			)
+			(pin passive line
+				(at -1.27 -5.08 90)
+				(length 2.54)
+				(name "S"
+					(effects (font (size 1.27 1.27)))
+				)
+				(number "3"
+					(effects (font (size 1.27 1.27)))
+				)
+			)
+		)
+	)
+	(symbol "1140-101K-RC"
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "L"
+			(id 0)
+			(at 0 5.08 0)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Value" "1140-101K-RC"
+			(id 1)
+			(at 0 -5.08 0)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Footprint" "Project_Parts:IND-TH_BD38.1-P29.20-D1.6"
+			(id 2)
+			(at 0 -7.62 0)
+			(effects
+				(font (size 1.27 1.27))
+				hide
+			)
+		)
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2312070835_BOURNS-1140-101K-RC_C6063958.pdf"
+			(id 3)
+			(at 0 -10.16 0)
+			(effects
+				(font (size 1.27 1.27))
+				hide
+			)
+		)
+		(property "Description" "Power Inductors, 100uH, ±10%, 10.5A, 20.6A, Consumer grade, 25mΩ, Plugin,D=38.1mm"
+			(at 0 0 0)
+			(effects
+				(font (size 1.27 1.27))
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "BOURNS"
+			(id 4)
+			(at 0 -12.70 0)
+			(effects
+				(font (size 1.27 1.27))
+				hide
+			)
+		)
+		(property "MPN" "1140-101K-RC"
+			(id 5)
+			(at 0 -15.24 0)
+			(effects
+				(font (size 1.27 1.27))
+				hide
+			)
+		)
+		(property "Package" "Plugin,D=38.1mm"
+			(at 0 0 0)
+			(effects
+				(font (size 1.27 1.27))
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C6063958"
+			(id 6)
+			(at 0 -17.78 0)
+			(effects
+				(font (size 1.27 1.27))
+				hide
+			)
+		)
+		(symbol "1140-101K-RC_0_1"
+			(arc
+				(start -2.03 -0.01)
+				(mid -3.04 1.02)
+				(end -4.06 0.01)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill (type none))
+			)
+			(arc
+				(start 0.00 -0.01)
+				(mid -1.01 1.02)
+				(end -2.03 0.01)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill (type none))
+			)
+			(arc
+				(start 4.06 -0.01)
+				(mid 3.05 1.02)
+				(end 2.03 0.01)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill (type none))
+			)
+			(arc
+				(start 2.03 -0.01)
+				(mid 1.02 1.02)
+				(end 0.00 0.01)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill (type none))
+			)
+			(pin passive line
+				(at 5.08 -0.00 180)
+				(length 1.27)
+				(name "2"
+					(effects (font (size 1.27 1.27)))
+				)
+				(number "2"
+					(effects (font (size 1.27 1.27)))
+				)
+			)
+			(pin passive line
+				(at -5.08 -0.00 0)
+				(length 1.27)
+				(name "1"
+					(effects (font (size 1.27 1.27)))
+				)
+				(number "1"
+					(effects (font (size 1.27 1.27)))
+				)
+			)
+		)
+	)
+	(symbol "B32774D4106K000"
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "C"
+			(id 0)
+			(at 0 5.08 0)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Value" "B32774D4106K000"
+			(id 1)
+			(at 0 -5.08 0)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Footprint" "Project_Parts:CAP-TH_L31.5-W15.0-P27.50-D0.8"
+			(id 2)
+			(at 0 -7.62 0)
+			(effects
+				(font (size 1.27 1.27))
+				hide
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2401161246_TDK-B32774D4106K000_C3799662.pdf"
+			(id 3)
+			(at 0 -10.16 0)
+			(effects
+				(font (size 1.27 1.27))
+				hide
+			)
+		)
+		(property "Description" "Polypropylene Film Capacitors (CBB), 10uF, ±10%, 450V, Metallized polypropylene, Plugin,P=27.5mm"
+			(at 0 0 0)
+			(effects
+				(font (size 1.27 1.27))
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "TDK"
+			(id 4)
+			(at 0 -12.70 0)
+			(effects
+				(font (size 1.27 1.27))
+				hide
+			)
+		)
+		(property "MPN" "B32774D4106K000"
+			(id 5)
+			(at 0 -15.24 0)
+			(effects
+				(font (size 1.27 1.27))
+				hide
+			)
+		)
+		(property "Package" "Plugin,P=27.5mm"
+			(at 0 0 0)
+			(effects
+				(font (size 1.27 1.27))
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C3799662"
+			(id 6)
+			(at 0 -17.78 0)
+			(effects
+				(font (size 1.27 1.27))
+				hide
+			)
+		)
+		(symbol "B32774D4106K000_0_1"
+			(polyline
+				(pts
+					(xy -0.51 -2.03)
+					(xy -0.51 2.03)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill (type none))
+			)
+			(polyline
+				(pts
+					(xy 2.54 -0.00)
+					(xy 0.51 -0.00)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill (type none))
+			)
+			(polyline
+				(pts
+					(xy 0.51 2.03)
+					(xy 0.51 -2.03)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill (type none))
+			)
+			(polyline
+				(pts
+					(xy -0.51 -0.00)
+					(xy -2.54 -0.00)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill (type none))
+			)
+			(pin passive line
+				(at -5.08 -0.00 0)
+				(length 2.54)
+				(name "1"
+					(effects (font (size 1.27 1.27)))
+				)
+				(number "1"
+					(effects (font (size 1.27 1.27)))
+				)
+			)
+			(pin passive line
+				(at 5.08 -0.00 180)
+				(length 2.54)
+				(name "2"
+					(effects (font (size 1.27 1.27)))
+				)
+				(number "2"
+					(effects (font (size 1.27 1.27)))
+				)
+			)
+		)
+	)
+	(symbol "150141M173100"
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "LED"
+			(id 0)
+			(at 0 8.89 0)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Value" "150141M173100"
+			(id 1)
+			(at 0 -11.43 0)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Footprint" "Project_Parts:LED-SMD_4P-L3.2-W2.8-LS3.5-TR_150141M173100"
+			(id 2)
+			(at 0 -13.97 0)
+			(effects
+				(font (size 1.27 1.27))
+				hide
+			)
+		)
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2306061159_Wurth-Elektronik-150141M173100_C5342281.pdf"
+			(id 3)
+			(at 0 -16.51 0)
+			(effects
+				(font (size 1.27 1.27))
+				hide
+			)
+		)
+		(property "Description" "LED Indication - Discrete, 470nm、520nm、625nm, 20mA, 120°, 230mcd、270mcd、950mcd, Red, Green, Blue, Common Anode, Water Clear, 465nm、515nm、635nm, SMD3528-4P"
+			(at 0 0 0)
+			(effects
+				(font (size 1.27 1.27))
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Wurth Elektronik"
+			(id 4)
+			(at 0 -19.05 0)
+			(effects
+				(font (size 1.27 1.27))
+				hide
+			)
+		)
+		(property "MPN" "150141M173100"
+			(id 5)
+			(at 0 -21.59 0)
+			(effects
+				(font (size 1.27 1.27))
+				hide
+			)
+		)
+		(property "Package" "SMD3528-4P"
+			(at 0 0 0)
+			(effects
+				(font (size 1.27 1.27))
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C5342281"
+			(id 6)
+			(at 0 -24.13 0)
+			(effects
+				(font (size 1.27 1.27))
+				hide
+			)
+		)
+		(symbol "150141M173100_0_1"
+			(polyline
+				(pts
+					(xy -4.06 2.03)
+					(xy -3.05 1.52)
+					(xy -3.56 1.02)
+					(xy -4.06 2.03)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill (type background))
+			)
+			(polyline
+				(pts
+					(xy -3.05 3.05)
+					(xy -2.03 2.54)
+					(xy -2.54 2.03)
+					(xy -3.05 3.05)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill (type background))
+			)
+			(polyline
+				(pts
+					(xy 1.27 0.51)
+					(xy -1.27 -1.27)
+					(xy 1.27 -3.05)
+					(xy 1.27 0.51)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill (type background))
+			)
+			(polyline
+				(pts
+					(xy 1.27 5.59)
+					(xy -1.27 3.81)
+					(xy 1.27 2.03)
+					(xy 1.27 5.59)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill (type background))
+			)
+			(polyline
+				(pts
+					(xy -3.05 8.13)
+					(xy -2.03 7.62)
+					(xy -2.54 7.11)
+					(xy -3.05 8.13)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill (type background))
+			)
+			(polyline
+				(pts
+					(xy -4.06 7.11)
+					(xy -3.05 6.60)
+					(xy -3.56 6.10)
+					(xy -4.06 7.11)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill (type background))
+			)
+			(polyline
+				(pts
+					(xy 1.27 -4.57)
+					(xy -1.27 -6.35)
+					(xy 1.27 -8.13)
+					(xy 1.27 -4.57)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill (type background))
+			)
+			(polyline
+				(pts
+					(xy -3.05 -2.03)
+					(xy -2.03 -2.54)
+					(xy -2.54 -3.05)
+					(xy -3.05 -2.03)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill (type background))
+			)
+			(polyline
+				(pts
+					(xy -4.06 -3.05)
+					(xy -3.05 -3.56)
+					(xy -3.56 -4.06)
+					(xy -4.06 -3.05)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill (type background))
+			)
+			(polyline
+				(pts
+					(xy -2.29 0.25)
+					(xy -3.30 1.27)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill (type none))
+			)
+			(polyline
+				(pts
+					(xy -1.27 1.27)
+					(xy -2.29 2.29)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill (type none))
+			)
+			(polyline
+				(pts
+					(xy -1.27 -1.27)
+					(xy -2.54 -1.27)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill (type none))
+			)
+			(polyline
+				(pts
+					(xy 2.54 -1.27)
+					(xy 1.27 -1.27)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill (type none))
+			)
+			(polyline
+				(pts
+					(xy -1.27 0.51)
+					(xy -1.27 -3.05)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill (type none))
+			)
+			(polyline
+				(pts
+					(xy -1.27 5.59)
+					(xy -1.27 2.03)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill (type none))
+			)
+			(polyline
+				(pts
+					(xy 2.54 3.81)
+					(xy 1.27 3.81)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill (type none))
+			)
+			(polyline
+				(pts
+					(xy -1.27 3.81)
+					(xy -2.54 3.81)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill (type none))
+			)
+			(polyline
+				(pts
+					(xy -1.27 6.35)
+					(xy -2.29 7.37)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill (type none))
+			)
+			(polyline
+				(pts
+					(xy -2.29 5.33)
+					(xy -3.30 6.35)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill (type none))
+			)
+			(polyline
+				(pts
+					(xy -1.27 -4.57)
+					(xy -1.27 -8.13)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill (type none))
+			)
+			(polyline
+				(pts
+					(xy 2.54 -6.35)
+					(xy 1.27 -6.35)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill (type none))
+			)
+			(polyline
+				(pts
+					(xy -1.27 -6.35)
+					(xy -2.54 -6.35)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill (type none))
+			)
+			(polyline
+				(pts
+					(xy -1.27 -3.81)
+					(xy -2.29 -2.79)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill (type none))
+			)
+			(polyline
+				(pts
+					(xy -2.29 -4.83)
+					(xy -3.30 -3.81)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill (type none))
+			)
+			(polyline
+				(pts
+					(xy 2.54 3.81)
+					(xy 5.08 3.81)
+					(xy 5.08 -6.35)
+					(xy 2.54 -6.35)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill (type none))
+			)
+			(polyline
+				(pts
+					(xy 2.54 -1.27)
+					(xy 5.08 -1.27)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill (type none))
+			)
+			(polyline
+				(pts
+					(xy -2.54 3.81)
+					(xy -5.08 3.81)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill (type none))
+			)
+			(polyline
+				(pts
+					(xy -2.54 -1.27)
+					(xy -5.08 -1.27)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill (type none))
+			)
+			(polyline
+				(pts
+					(xy -2.54 -6.35)
+					(xy -5.08 -6.35)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill (type none))
+			)
+			(pin passive line
+				(at -7.62 -1.27 0)
+				(length 2.54)
+				(name "-"
+					(effects (font (size 1.27 1.27)))
+				)
+				(number "3"
+					(effects (font (size 1.27 1.27)))
+				)
+			)
+			(pin passive line
+				(at 7.62 -1.27 180)
+				(length 2.54)
+				(name "+"
+					(effects (font (size 1.27 1.27)))
+				)
+				(number "1"
+					(effects (font (size 1.27 1.27)))
+				)
+			)
+			(pin passive line
+				(at -7.62 3.81 0)
+				(length 2.54)
+				(name "-"
+					(effects (font (size 1.27 1.27)))
+				)
+				(number "2"
+					(effects (font (size 1.27 1.27)))
+				)
+			)
+			(pin passive line
+				(at -7.62 -6.35 0)
+				(length 2.54)
+				(name "-"
+					(effects (font (size 1.27 1.27)))
+				)
+				(number "4"
+					(effects (font (size 1.27 1.27)))
+				)
+			)
+		)
 	)
 )

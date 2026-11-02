@@ -1275,212 +1275,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Regulator_Switching:AP63203WU"
-			(property "Reference" "U"
-				(at -7.62 6.35 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "AP63203WU"
-				(at 2.54 6.35 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "Package_TO_SOT_SMD:TSOT-23-6"
-				(at 0 -22.86 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" "https://www.diodes.com/assets/Datasheets/AP63200-AP63201-AP63203-AP63205.pdf"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "2A, 1.1MHz Buck DC/DC Converter, fixed 3.3V output voltage, TSOT-23-6"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "2A Buck DC/DC"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "TSOT?23*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(embedded_fonts no)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(symbol "AP63203WU_0_1"
-				(rectangle
-					(start -7.62 5.08)
-					(end 7.62 -5.08)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-			)
-			(symbol "AP63203WU_1_1"
-				(pin input line
-					(at 10.16 -2.54 180)
-					(length 2.54)
-					(name "FB"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -10.16 -2.54 0)
-					(length 2.54)
-					(name "EN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at -10.16 2.54 0)
-					(length 2.54)
-					(name "IN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 -7.62 90)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 10.16 2.54 180)
-					(length 2.54)
-					(name "SW"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 10.16 0 180)
-					(length 2.54)
-					(name "BST"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "Device:L"
 			(pin_numbers
 				(hide yes)
@@ -1658,212 +1452,6 @@
 				)
 			)
 			(embedded_fonts no)
-		)
-		(symbol "Regulator_Switching:AP63205WU"
-			(property "Reference" "U"
-				(at -7.62 6.35 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "AP63205WU"
-				(at 2.54 6.35 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "Package_TO_SOT_SMD:TSOT-23-6"
-				(at 0 -22.86 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" "https://www.diodes.com/assets/Datasheets/AP63200-AP63201-AP63203-AP63205.pdf"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "2A, 1.1MHz Buck DC/DC Converter, fixed 5.0V output voltage, TSOT-23-6"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "2A Buck DC/DC"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "TSOT?23*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(embedded_fonts no)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(symbol "AP63205WU_0_1"
-				(rectangle
-					(start -7.62 5.08)
-					(end 7.62 -5.08)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-			)
-			(symbol "AP63205WU_1_1"
-				(pin input line
-					(at 10.16 -2.54 180)
-					(length 2.54)
-					(name "FB"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -10.16 -2.54 0)
-					(length 2.54)
-					(name "EN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at -10.16 2.54 0)
-					(length 2.54)
-					(name "IN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 -7.62 90)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 10.16 2.54 180)
-					(length 2.54)
-					(name "SW"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 10.16 0 180)
-					(length 2.54)
-					(name "BST"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
 		)
 		(symbol "Interface_CAN_LIN:ISOW1044"
 			(exclude_from_sim no)
@@ -3192,6 +2780,408 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Regulator_Linear:TLV70033_SOT23-5"
+			(property "Reference" "U"
+				(at -3.81 5.715 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TLV70033_SOT23-5"
+				(at 0 5.715 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
+				(at 0 8.255 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+				)
+			)
+			(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tlv700.pdf"
+				(at 0 1.27 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "200mA Low Dropout Voltage Regulator, Fixed Output 3.3V, SOT-23-5"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "200mA LDO Regulator Fixed Positive"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "SOT?23*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(embedded_fonts no)
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(symbol "TLV70033_SOT23-5_0_1"
+				(rectangle
+					(start -5.08 4.445)
+					(end 5.08 -5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "TLV70033_SOT23-5_1_1"
+				(pin power_in line
+					(at -7.62 2.54 0)
+					(length 2.54)
+					(name "IN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -7.62 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 0 0)
+					(length 2.54)
+					(name "EN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at 5.08 0 180)
+					(length 2.54)
+					(hide yes)
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 7.62 2.54 180)
+					(length 2.54)
+					(name "OUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+	
+		(symbol
+		  "Regulator_Switching:AP63205WU"
+		  (property "Reference" "U"
+		    (at -7.62 6.35 0)
+		    (show_name no)
+		    (do_not_autoplace no)
+		    (effects
+		      (font
+		        (size 1.27 1.27)
+		      )
+		    )
+		  )
+		  (property "Value" "AP63205WU"
+		    (at 2.54 6.35 0)
+		    (show_name no)
+		    (do_not_autoplace no)
+		    (effects
+		      (font
+		        (size 1.27 1.27)
+		      )
+		    )
+		  )
+		  (property "Footprint" "Package_TO_SOT_SMD:TSOT-23-6"
+		    (at 0 -22.86 0)
+		    (show_name no)
+		    (do_not_autoplace no)
+		    (hide yes)
+		    (effects
+		      (font
+		        (size 1.27 1.27)
+		      )
+		    )
+		  )
+		  (property "Datasheet" "https://www.diodes.com/assets/Datasheets/AP63200-AP63201-AP63203-AP63205.pdf"
+		    (at 0 0 0)
+		    (show_name no)
+		    (do_not_autoplace no)
+		    (hide yes)
+		    (effects
+		      (font
+		        (size 1.27 1.27)
+		      )
+		    )
+		  )
+		  (property "Description" "2A, 1.1MHz Buck DC/DC Converter, fixed 5.0V output voltage, TSOT-23-6"
+		    (at 0 0 0)
+		    (show_name no)
+		    (do_not_autoplace no)
+		    (hide yes)
+		    (effects
+		      (font
+		        (size 1.27 1.27)
+		      )
+		    )
+		  )
+		  (property "ki_keywords" "2A Buck DC/DC"
+		    (at 0 0 0)
+		    (show_name no)
+		    (do_not_autoplace no)
+		    (hide yes)
+		    (effects
+		      (font
+		        (size 1.27 1.27)
+		      )
+		    )
+		  )
+		  (property "ki_fp_filters" "TSOT?23*"
+		    (at 0 0 0)
+		    (show_name no)
+		    (do_not_autoplace no)
+		    (hide yes)
+		    (effects
+		      (font
+		        (size 1.27 1.27)
+		      )
+		    )
+		  )
+		  (embedded_fonts no)
+		  (exclude_from_sim no)
+		  (in_bom yes)
+		  (on_board yes)
+		  (in_pos_files yes)
+		  (duplicate_pin_numbers_are_jumpers no)
+		  (symbol "AP63205WU_0_1"
+		    (rectangle
+		      (start -7.62 5.08)
+		      (end 7.62 -5.08)
+		      (stroke
+		        (width 0.254)
+		        (type default)
+		      )
+		      (fill
+		        (type background)
+		      )
+		    )
+		  )
+		  (symbol "AP63205WU_1_1"
+		    (pin input line
+		      (at 10.16 -2.54 180)
+		      (length 2.54)
+		      (name "FB"
+		        (effects
+		          (font
+		            (size 1.27 1.27)
+		          )
+		        )
+		      )
+		      (number "1"
+		        (effects
+		          (font
+		            (size 1.27 1.27)
+		          )
+		        )
+		      )
+		    )
+		    (pin input line
+		      (at -10.16 -2.54 0)
+		      (length 2.54)
+		      (name "EN"
+		        (effects
+		          (font
+		            (size 1.27 1.27)
+		          )
+		        )
+		      )
+		      (number "2"
+		        (effects
+		          (font
+		            (size 1.27 1.27)
+		          )
+		        )
+		      )
+		    )
+		    (pin power_in line
+		      (at -10.16 2.54 0)
+		      (length 2.54)
+		      (name "IN"
+		        (effects
+		          (font
+		            (size 1.27 1.27)
+		          )
+		        )
+		      )
+		      (number "3"
+		        (effects
+		          (font
+		            (size 1.27 1.27)
+		          )
+		        )
+		      )
+		    )
+		    (pin power_in line
+		      (at 0 -7.62 90)
+		      (length 2.54)
+		      (name "GND"
+		        (effects
+		          (font
+		            (size 1.27 1.27)
+		          )
+		        )
+		      )
+		      (number "4"
+		        (effects
+		          (font
+		            (size 1.27 1.27)
+		          )
+		        )
+		      )
+		    )
+		    (pin output line
+		      (at 10.16 2.54 180)
+		      (length 2.54)
+		      (name "SW"
+		        (effects
+		          (font
+		            (size 1.27 1.27)
+		          )
+		        )
+		      )
+		      (number "5"
+		        (effects
+		          (font
+		            (size 1.27 1.27)
+		          )
+		        )
+		      )
+		    )
+		    (pin passive line
+		      (at 10.16 0 180)
+		      (length 2.54)
+		      (name "BST"
+		        (effects
+		          (font
+		            (size 1.27 1.27)
+		          )
+		        )
+		      )
+		      (number "6"
+		        (effects
+		          (font
+		            (size 1.27 1.27)
+		          )
+		        )
+		      )
+		    )
+		  )
+		)
 	)
 	(junction
 		(at 63.5 50.8)
@@ -3289,31 +3279,6 @@
 		(uuid "2b921b05-7fdd-4642-9ae5-7b891193a75d")
 	)
 	(junction
-		(at 45.72 124.46)
-		(diameter 0)
-		(uuid "7694b464-7004-410f-b020-da378a38d3af")
-	)
-	(junction
-		(at 50.8 124.46)
-		(diameter 0)
-		(uuid "76aedde9-dc50-462d-b686-d6e5d688c77d")
-	)
-	(junction
-		(at 76.2 119.38)
-		(diameter 0)
-		(uuid "905d13d0-860d-49cd-b6bd-905002736d7c")
-	)
-	(junction
-		(at 99.06 114.3)
-		(diameter 0)
-		(uuid "93e74a6d-cbfe-4663-983c-cbf2aea0217b")
-	)
-	(junction
-		(at 102.87 114.3)
-		(diameter 0)
-		(uuid "976b66ee-0b80-416c-ac1d-643ad37d078a")
-	)
-	(junction
 		(at 167.64 104.14)
 		(diameter 0)
 		(uuid "b398715f-dedc-456e-b62a-60ae6c45cae1")
@@ -3349,14 +3314,19 @@
 		(uuid "bea38b07-6063-4940-95b6-5ad1cdaa290e")
 	)
 	(junction
-		(at 111.76 114.3)
+		(at 271.78 40.64)
 		(diameter 0)
-		(uuid "02d4d507-43b1-4c1d-a194-4fce4cb15292")
+		(uuid "e522da8a-ad6b-49e8-a3fc-461f8cdd01aa")
 	)
 	(junction
-		(at 119.38 114.3)
+		(at 274.32 40.64)
 		(diameter 0)
-		(uuid "26895eec-92ac-4b80-94a8-86916ac8c29b")
+		(uuid "8ff74aa3-3a6e-41da-90df-58a02b8d0673")
+	)
+	(junction
+		(at 297.18 40.64)
+		(diameter 0)
+		(uuid "45c1ed5f-57d6-4638-a2b9-1a9ff306bcf7")
 	)
 	(no_connect
 		(at 149.86 127)
@@ -3373,6 +3343,10 @@
 	(no_connect
 		(at 180.34 127)
 		(uuid "910a3f55-a354-473a-94ea-c1e7599473da")
+	)
+	(no_connect
+		(at 289.56 43.18)
+		(uuid "d2a3ad0c-ac95-4b9d-b291-926b224e5d5d")
 	)
 	(wire
 		(pts
@@ -3656,97 +3630,6 @@
 	)
 	(wire
 		(pts
-			(xy 40.64 124.46)
-			(xy 45.72 124.46)
-		)
-		(uuid "dad81e80-da24-4992-a4f7-501b67e1ebb4")
-	)
-	(wire
-		(pts
-			(xy 45.72 124.46)
-			(xy 50.8 124.46)
-		)
-		(uuid "a5dd470b-28c9-4ad2-94e4-f129f4c7a2ae")
-	)
-	(wire
-		(pts
-			(xy 50.8 124.46)
-			(xy 53.34 124.46)
-		)
-		(uuid "70bf91f9-3486-4d07-a33b-3b6b6e1aa366")
-	)
-	(wire
-		(pts
-			(xy 53.34 129.54)
-			(xy 50.8 129.54)
-		)
-		(uuid "db0b813a-2ecb-4028-97cc-c8ace814d26f")
-	)
-	(wire
-		(pts
-			(xy 50.8 129.54)
-			(xy 50.8 124.46)
-		)
-		(uuid "66896c1c-bd12-4ba8-9743-e276b88d7edd")
-	)
-	(wire
-		(pts
-			(xy 73.66 124.46)
-			(xy 76.2 124.46)
-		)
-		(uuid "c06508ff-91f4-4155-9ab1-6b3768986d0c")
-	)
-	(wire
-		(pts
-			(xy 76.2 124.46)
-			(xy 76.2 119.38)
-		)
-		(uuid "97d0feef-0eb6-47ae-a88f-93a2fde8d014")
-	)
-	(wire
-		(pts
-			(xy 76.2 119.38)
-			(xy 76.2 114.3)
-		)
-		(uuid "8d49e4c0-cfd8-4d6d-aba1-3a76326f87ac")
-	)
-	(wire
-		(pts
-			(xy 76.2 114.3)
-			(xy 86.36 114.3)
-		)
-		(uuid "c5250e48-b6af-4a76-a216-be04c5f23f4c")
-	)
-	(wire
-		(pts
-			(xy 76.2 119.38)
-			(xy 81.28 119.38)
-		)
-		(uuid "20d23508-7be2-4022-b9c7-ae9ff9f8820e")
-	)
-	(wire
-		(pts
-			(xy 73.66 127)
-			(xy 81.28 127)
-		)
-		(uuid "9f6b7d37-82be-48b7-8ae8-e139ee8ff2bc")
-	)
-	(wire
-		(pts
-			(xy 93.98 114.3)
-			(xy 99.06 114.3)
-		)
-		(uuid "92e0d62f-2d94-4214-8427-5c78effce0f1")
-	)
-	(wire
-		(pts
-			(xy 99.06 114.3)
-			(xy 102.87 114.3)
-		)
-		(uuid "6d33c19e-a9c5-4230-95c9-deb2f9ba37af")
-	)
-	(wire
-		(pts
 			(xy 157.48 109.22)
 			(xy 157.48 101.6)
 		)
@@ -3971,31 +3854,52 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 114.3)
-			(xy 111.76 114.3)
+			(xy 259.08 40.64)
+			(xy 271.78 40.64)
 		)
-		(uuid "24231d30-aab1-46c7-a5b0-da0c4f90b7fe")
+		(uuid "b633ef7f-9ae4-49a0-9b16-f265784ff577")
 	)
 	(wire
 		(pts
-			(xy 111.76 114.3)
-			(xy 119.38 114.3)
+			(xy 271.78 40.64)
+			(xy 274.32 40.64)
 		)
-		(uuid "55b8bd45-57fd-480a-9cae-4de5fe1bb707")
+		(uuid "cd3f0edb-6be0-42fe-89d3-6fd3f7ab59ee")
 	)
 	(wire
 		(pts
-			(xy 73.66 129.54)
-			(xy 119.38 129.54)
+			(xy 274.32 40.64)
+			(xy 276.86 40.64)
 		)
-		(uuid "4d02f416-e16a-4f97-b72e-4da7d25931e8")
+		(uuid "b1ebce99-e6eb-478f-aa8f-841f88d73558")
 	)
 	(wire
 		(pts
-			(xy 119.38 129.54)
-			(xy 119.38 114.3)
+			(xy 276.86 43.18)
+			(xy 274.32 43.18)
 		)
-		(uuid "bac13dc7-e0fe-449a-af23-008ddab53023")
+		(uuid "00af35ca-7591-4d83-b62a-d360749d7b10")
+	)
+	(wire
+		(pts
+			(xy 274.32 43.18)
+			(xy 274.32 40.64)
+		)
+		(uuid "5fca99c5-a3a9-4da1-a756-c2eb5c1bfb3f")
+	)
+	(wire
+		(pts
+			(xy 292.1 40.64)
+			(xy 297.18 40.64)
+		)
+		(uuid "ee5e506e-8be1-4d8e-b60b-68a1ff1b4017")
+	)
+	(wire
+		(pts
+			(xy 297.18 40.64)
+			(xy 302.26 40.64)
+		)
+		(uuid "73382c20-1a69-4fd7-8b77-d8cba47a5fd9")
 	)
 	(text "12V INPUT & PROTECTION"
 		(at 19.5 36.5 0)
@@ -4023,7 +3927,7 @@
 		)
 		(uuid "1d9b2ead-f16a-4578-bef0-92c67fe8ebb2")
 	)
-	(text "3.3V BUCK"
+	(text "5V BUCK & 3.3V LDO"
 		(at 182.5 32.5 0)
 		(effects
 			(font
@@ -4035,19 +3939,6 @@
 			(justify left bottom)
 		)
 		(uuid "d30efedf-fbb4-42b3-a98a-5ef54db1ffca")
-	)
-	(text "CAN 5V SUPPLY (DNP)"
-		(at 31.5 104.5 0)
-		(effects
-			(font
-				(size 2 2)
-				(thickness 0.4)
-				(bold yes)
-				(color 0 0 255 1)
-			)
-			(justify left bottom)
-		)
-		(uuid "524aae95-1056-4983-95b3-6470f7f43ef2")
 	)
 	(text "ISOLATED CAN (DNP)"
 		(at 129.5 185.5 0)
@@ -5071,7 +4962,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Regulator_Switching:AP63203WU")
+		(lib_id "Regulator_Switching:AP63205WU")
 		(at 203.2 53.34 0)
 		(unit 1)
 		(in_bom yes)
@@ -5086,7 +4977,7 @@
 				)
 			)
 		)
-		(property "Value" "AP63203WU-7"
+		(property "Value" "AP63205WU-7"
 			(at 205.74 46.99 0)
 			(effects
 				(font
@@ -5112,7 +5003,7 @@
 				)
 			)
 		)
-		(property "Description" "2A, 1.1MHz Buck DC/DC Converter, fixed 3.3V output voltage, TSOT-23-6"
+		(property "Description" "2A, 1.1MHz Buck DC/DC Converter, fixed 5V output voltage, TSOT-23-6"
 			(at 203.2 53.34 0)
 			(hide yes)
 			(effects
@@ -5121,7 +5012,7 @@
 				)
 			)
 		)
-		(property "MPN" "AP63203WU-7"
+		(property "MPN" "AP63205WU-7"
 			(at 203.2 53.34 0)
 			(hide yes)
 			(show_name no)
@@ -5143,7 +5034,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C780769"
+		(property "LCSC Part" "C2071056"
 			(at 203.2 53.34 0)
 			(hide yes)
 			(show_name no)
@@ -5369,7 +5260,7 @@
 				)
 			)
 		)
-		(property "Value" "3.9u"
+		(property "Value" "4.7u"
 			(at 229.87 38.735 90)
 			(effects
 				(font
@@ -5404,7 +5295,7 @@
 				)
 			)
 		)
-		(property "MPN" "SWPA4030S3R9MT"
+		(property "MPN" "SWPA4030S4R7MT"
 			(at 229.87 40.64 0)
 			(hide yes)
 			(show_name no)
@@ -5426,7 +5317,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C96899"
+		(property "LCSC Part" "C57269"
 			(at 229.87 40.64 0)
 			(hide yes)
 			(show_name no)
@@ -5631,572 +5522,6 @@
 			(project "Arcjet-PPU"
 				(path "/a26094a8-870e-4d79-a298-19a2c7b26655/2e7fa251-70ac-41fd-b058-c882c0469f37"
 					(reference "C66")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Regulator_Switching:AP63205WU")
-		(at 63.5 127 0)
-		(unit 1)
-		(in_bom yes)
-		(on_board yes)
-		(dnp yes)
-		(uuid "ba003e54-5387-40a1-967b-c90e40d2fd30")
-		(property "Reference" "U9"
-			(at 55.88 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "AP63205WU-7"
-			(at 66.04 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:TSOT-23-6"
-			(at 63.5 127 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/AP63200-AP63201-AP63203-AP63205.pdf"
-			(at 63.5 127 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "2A, 1.1MHz Buck DC/DC Converter, fixed 5.0V output voltage, TSOT-23-6"
-			(at 63.5 127 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "AP63205WU-7"
-			(at 63.5 127 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Diodes Inc"
-			(at 63.5 127 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Part" "C2071056"
-			(at 63.5 127 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(instances
-			(project "Arcjet-PPU"
-				(path "/a26094a8-870e-4d79-a298-19a2c7b26655/2e7fa251-70ac-41fd-b058-c882c0469f37"
-					(reference "U9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 45.72 128.27 0)
-		(unit 1)
-		(in_bom yes)
-		(on_board yes)
-		(dnp yes)
-		(uuid "7aad235d-20a0-4a63-bb84-0ce3ddd31e8a")
-		(property "Reference" "C67"
-			(at 46.355 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10u 25V"
-			(at 46.355 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
-			(at 45.72 128.27 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 45.72 128.27 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 45.72 128.27 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "CL31A106KAHNNNE"
-			(at 45.72 128.27 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Samsung"
-			(at 45.72 128.27 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Part" "C9807"
-			(at 45.72 128.27 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(instances
-			(project "Arcjet-PPU"
-				(path "/a26094a8-870e-4d79-a298-19a2c7b26655/2e7fa251-70ac-41fd-b058-c882c0469f37"
-					(reference "C67")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 81.28 123.19 0)
-		(unit 1)
-		(in_bom yes)
-		(on_board yes)
-		(dnp yes)
-		(uuid "dd1a18e5-21d8-493f-baee-95eb0acd74b0")
-		(property "Reference" "C68"
-			(at 81.915 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100n 50V"
-			(at 81.915 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 81.28 123.19 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 81.28 123.19 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 81.28 123.19 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "CC0603KRX7R9BB104"
-			(at 81.28 123.19 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "YAGEO"
-			(at 81.28 123.19 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Part" "C14663"
-			(at 81.28 123.19 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(instances
-			(project "Arcjet-PPU"
-				(path "/a26094a8-870e-4d79-a298-19a2c7b26655/2e7fa251-70ac-41fd-b058-c882c0469f37"
-					(reference "C68")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:L")
-		(at 90.17 114.3 90)
-		(unit 1)
-		(in_bom yes)
-		(on_board yes)
-		(dnp yes)
-		(uuid "f36dcb7d-3ded-4cfb-b202-e23beefc1e7b")
-		(property "Reference" "L4"
-			(at 90.17 115.57 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "4.7u"
-			(at 90.17 112.395 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Inductor_SMD:L_Sunlord_SWPA4030S"
-			(at 90.17 114.3 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 90.17 114.3 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Inductor"
-			(at 90.17 114.3 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "SWPA4030S4R7MT"
-			(at 90.17 114.3 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Sunlord"
-			(at 90.17 114.3 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Part" "C57269"
-			(at 90.17 114.3 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(instances
-			(project "Arcjet-PPU"
-				(path "/a26094a8-870e-4d79-a298-19a2c7b26655/2e7fa251-70ac-41fd-b058-c882c0469f37"
-					(reference "L4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 99.06 118.11 0)
-		(unit 1)
-		(in_bom yes)
-		(on_board yes)
-		(dnp yes)
-		(uuid "8f4f9394-0b4b-402f-b075-43b4d3fcdd9c")
-		(property "Reference" "C69"
-			(at 99.695 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "22u 25V"
-			(at 99.695 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 99.06 118.11 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 99.06 118.11 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 99.06 118.11 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "CL21A226MAQNNNE"
-			(at 99.06 118.11 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Samsung"
-			(at 99.06 118.11 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Part" "C45783"
-			(at 99.06 118.11 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(instances
-			(project "Arcjet-PPU"
-				(path "/a26094a8-870e-4d79-a298-19a2c7b26655/2e7fa251-70ac-41fd-b058-c882c0469f37"
-					(reference "C69")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 111.76 118.11 0)
-		(unit 1)
-		(in_bom yes)
-		(on_board yes)
-		(dnp yes)
-		(uuid "dddf2efb-afe5-4ca5-b61a-179630cdb7f3")
-		(property "Reference" "C70"
-			(at 112.395 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "22u 25V"
-			(at 112.395 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 111.76 118.11 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 111.76 118.11 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 111.76 118.11 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "CL21A226MAQNNNE"
-			(at 111.76 118.11 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Samsung"
-			(at 111.76 118.11 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Part" "C45783"
-			(at 111.76 118.11 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(instances
-			(project "Arcjet-PPU"
-				(path "/a26094a8-870e-4d79-a298-19a2c7b26655/2e7fa251-70ac-41fd-b058-c882c0469f37"
-					(reference "C70")
 					(unit 1)
 				)
 			)
@@ -7174,7 +6499,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3.3V")
+		(lib_id "power:+5V")
 		(at 259.08 40.64 0)
 		(unit 1)
 		(in_bom yes)
@@ -7190,7 +6515,7 @@
 				)
 			)
 		)
-		(property "Value" "+3.3V"
+		(property "Value" "+5V"
 			(at 259.08 37.084 0)
 			(effects
 				(font
@@ -7216,7 +6541,7 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
 			(at 259.08 40.64 0)
 			(hide yes)
 			(effects
@@ -7229,67 +6554,6 @@
 			(project "Arcjet-PPU"
 				(path "/a26094a8-870e-4d79-a298-19a2c7b26655/2e7fa251-70ac-41fd-b058-c882c0469f37"
 					(reference "#PWR103")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5V")
-		(at 119.38 114.3 0)
-		(unit 1)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "3e1c6ff6-eb3a-4041-9b85-02fa65a80110")
-		(property "Reference" "#PWR104"
-			(at 119.38 118.11 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+5V_CAN"
-			(at 119.38 110.744 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 119.38 114.3 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 119.38 114.3 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 119.38 114.3 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(instances
-			(project "Arcjet-PPU"
-				(path "/a26094a8-870e-4d79-a298-19a2c7b26655/2e7fa251-70ac-41fd-b058-c882c0469f37"
-					(reference "#PWR104")
 					(unit 1)
 				)
 			)
@@ -7897,314 +7161,6 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 45.72 132.08 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "ae959e02-8e90-4038-82e1-aa12a53935fd")
-		(property "Reference" "#PWR112"
-			(at 45.72 138.43 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 45.72 137.16 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 45.72 132.08 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 45.72 132.08 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\""
-			(at 45.72 132.08 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(body_style 1)
-		(in_pos_files yes)
-		(pin "1"
-			(uuid "93d96149-c159-49fd-a060-01dae4e32c2c")
-		)
-		(instances
-			(project "Arcjet-PPU"
-				(path "/a26094a8-870e-4d79-a298-19a2c7b26655/2e7fa251-70ac-41fd-b058-c882c0469f37"
-					(reference "#PWR112")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 63.5 134.62 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "443841f0-2fdb-4351-aabb-a32f3a6b358c")
-		(property "Reference" "#PWR113"
-			(at 63.5 140.97 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 63.5 139.7 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 63.5 134.62 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 63.5 134.62 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\""
-			(at 63.5 134.62 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(body_style 1)
-		(in_pos_files yes)
-		(pin "1"
-			(uuid "897a295b-983c-4ec9-aade-de0e4313bfee")
-		)
-		(instances
-			(project "Arcjet-PPU"
-				(path "/a26094a8-870e-4d79-a298-19a2c7b26655/2e7fa251-70ac-41fd-b058-c882c0469f37"
-					(reference "#PWR113")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 99.06 121.92 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "a6b40a2a-b148-4a54-83c0-9d0d76023ab9")
-		(property "Reference" "#PWR114"
-			(at 99.06 128.27 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 99.06 127 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 99.06 121.92 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 99.06 121.92 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\""
-			(at 99.06 121.92 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(body_style 1)
-		(in_pos_files yes)
-		(pin "1"
-			(uuid "64fc1a0d-2b25-4f6e-95f8-832f20383aa8")
-		)
-		(instances
-			(project "Arcjet-PPU"
-				(path "/a26094a8-870e-4d79-a298-19a2c7b26655/2e7fa251-70ac-41fd-b058-c882c0469f37"
-					(reference "#PWR114")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 111.76 121.92 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "108e569d-0a6d-4536-a22c-15262cbe2f1c")
-		(property "Reference" "#PWR115"
-			(at 111.76 128.27 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 111.76 127 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 111.76 121.92 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 111.76 121.92 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\""
-			(at 111.76 121.92 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(body_style 1)
-		(in_pos_files yes)
-		(pin "1"
-			(uuid "a0fdcb3f-da63-44a4-baeb-c8f89b5e4268")
-		)
-		(instances
-			(project "Arcjet-PPU"
-				(path "/a26094a8-870e-4d79-a298-19a2c7b26655/2e7fa251-70ac-41fd-b058-c882c0469f37"
-					(reference "#PWR115")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
 		(at 157.48 149.86 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8666,83 +7622,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+12V")
-		(at 40.64 124.46 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "cfa2e06d-118e-4a83-9e68-e1b861e7692d")
-		(property "Reference" "#PWR122"
-			(at 40.64 119.697 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+12V"
-			(at 40.64 120.65 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 40.64 124.46 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 40.64 124.46 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 40.64 124.46 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(body_style 1)
-		(in_pos_files yes)
-		(pin "1"
-			(uuid "54e70b3c-274b-4297-a43e-2fc1d776df9a")
-		)
-		(instances
-			(project "Arcjet-PPU"
-				(path "/a26094a8-870e-4d79-a298-19a2c7b26655/2e7fa251-70ac-41fd-b058-c882c0469f37"
-					(reference "#PWR122")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+3.3V")
 		(at 152.4 101.6 0)
 		(unit 1)
@@ -8916,7 +7795,7 @@
 				)
 			)
 		)
-		(property "Value" "+5V_CAN"
+		(property "Value" "+5V"
 			(at 160.02 95.25 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8948,7 +7827,7 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+5V_CAN\""
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
 			(at 160.02 99.06 0)
 			(hide yes)
 			(show_name no)
@@ -8993,7 +7872,7 @@
 				)
 			)
 		)
-		(property "Value" "+5V_CAN"
+		(property "Value" "+5V"
 			(at 162.56 161.29 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9025,7 +7904,7 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+5V_CAN\""
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
 			(at 162.56 165.1 0)
 			(hide yes)
 			(show_name no)
@@ -9070,7 +7949,7 @@
 				)
 			)
 		)
-		(property "Value" "+5V_CAN"
+		(property "Value" "+5V"
 			(at 175.26 161.29 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9102,7 +7981,7 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+5V_CAN\""
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
 			(at 175.26 165.1 0)
 			(hide yes)
 			(show_name no)
@@ -10052,16 +8931,58 @@
 		)
 	)
 	(symbol
-		(lib_id "power:PWR_FLAG")
-		(at 102.87 114.3 0)
+		(lib_id "Regulator_Linear:TLV70033_SOT23-5")
+		(at 284.48 43.18 0)
 		(unit 1)
-		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "ed2f41ec-c183-4797-a4e2-a7bdf2f18740")
-		(property "Reference" "#FLG106"
-			(at 102.87 109.537 0)
+		(uuid "baf0129a-c6d3-4825-b5bc-1a728fb4958f")
+		(property "Reference" "U12"
+			(at 284.48 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TLV74033PDBVR"
+			(at 284.48 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
+			(at 284.48 43.18 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tlv740p.pdf"
+			(at 284.48 43.18 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "300mA LDO, fixed 3.3V, SOT-23-5"
+			(at 284.48 43.18 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "TLV74033PDBVR"
+			(at 284.48 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10071,8 +8992,9 @@
 				)
 			)
 		)
-		(property "Value" "PWR_FLAG"
-			(at 102.87 110.49 0)
+		(property "Manufacturer" "Texas Instruments"
+			(at 284.48 43.18 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10081,11 +9003,53 @@
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 102.87 114.3 0)
+		(property "LCSC Part" "C3743587"
+			(at 284.48 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "Arcjet-PPU"
+				(path "/a26094a8-870e-4d79-a298-19a2c7b26655/2e7fa251-70ac-41fd-b058-c882c0469f37"
+					(reference "U12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 271.78 44.45 0)
+		(unit 1)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "cb2de958-855d-4387-8d52-b093aa867d01")
+		(property "Reference" "C77"
+			(at 267.97 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "4.7u 10V"
+			(at 266.7 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 271.78 44.45 0)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10093,7 +9057,25 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 102.87 114.3 0)
+			(at 271.78 44.45 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 271.78 44.45 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "CL10A475KP8NNNC"
+			(at 271.78 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10103,8 +9085,8 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"PWR_FLAG\""
-			(at 102.87 114.3 0)
+		(property "Manufacturer" "Samsung"
+			(at 271.78 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10114,15 +9096,114 @@
 				)
 			)
 		)
-		(body_style 1)
-		(in_pos_files yes)
-		(pin "1"
-			(uuid "070b239e-bd80-4b9c-af3d-43de69290990")
+		(property "LCSC Part" "C1705"
+			(at 271.78 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(instances
 			(project "Arcjet-PPU"
 				(path "/a26094a8-870e-4d79-a298-19a2c7b26655/2e7fa251-70ac-41fd-b058-c882c0469f37"
-					(reference "#FLG106")
+					(reference "C77")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 297.18 44.45 0)
+		(unit 1)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "21feff0e-f8c1-4382-b7d4-c17160e2fd7f")
+		(property "Reference" "C78"
+			(at 300.99 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "4.7u 10V"
+			(at 302.26 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 297.18 44.45 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 297.18 44.45 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 297.18 44.45 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "CL10A475KP8NNNC"
+			(at 297.18 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Samsung"
+			(at 297.18 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C1705"
+			(at 297.18 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "Arcjet-PPU"
+				(path "/a26094a8-870e-4d79-a298-19a2c7b26655/2e7fa251-70ac-41fd-b058-c882c0469f37"
+					(reference "C78")
 					(unit 1)
 				)
 			)
@@ -10167,8 +9248,8 @@
 	(polyline
 		(pts
 			(xy 181 28)
-			(xy 268 28)
-			(xy 268 70)
+			(xy 310 28)
+			(xy 310 70)
 			(xy 181 70)
 			(xy 181 28)
 		)
@@ -10181,24 +9262,6 @@
 			(type none)
 		)
 		(uuid "6a86a317-58be-417f-a405-7de014f6910f")
-	)
-	(polyline
-		(pts
-			(xy 30 100)
-			(xy 125 100)
-			(xy 125 142)
-			(xy 30 142)
-			(xy 30 100)
-		)
-		(stroke
-			(width 0.3)
-			(type dot)
-			(color 0 0 255 1)
-		)
-		(fill
-			(type none)
-		)
-		(uuid "456726dd-e17e-4f83-80b2-1f29063c27e3")
 	)
 	(polyline
 		(pts
@@ -10217,5 +9280,313 @@
 			(type none)
 		)
 		(uuid "218e335e-fa66-452c-83f8-d14a452df19e")
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 271.78 48.26 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f17582f7-c6bf-4281-bcef-5e3ed11eb56c")
+		(property "Reference" "#PWR138"
+			(at 271.78 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 271.78 53.34 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 271.78 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 271.78 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\""
+			(at 271.78 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(body_style 1)
+		(in_pos_files yes)
+		(pin "1"
+			(uuid "3fe49d35-57b1-437b-ae65-520f8c4a04a0")
+		)
+		(instances
+			(project "Arcjet-PPU"
+				(path "/a26094a8-870e-4d79-a298-19a2c7b26655/2e7fa251-70ac-41fd-b058-c882c0469f37"
+					(reference "#PWR138")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 284.48 50.8 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2ac6bf0d-8e37-4da3-8888-8c98f8cda7a9")
+		(property "Reference" "#PWR139"
+			(at 284.48 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 284.48 55.88 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 284.48 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 284.48 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\""
+			(at 284.48 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(body_style 1)
+		(in_pos_files yes)
+		(pin "1"
+			(uuid "80076892-9150-423d-8f69-8da82dc4743e")
+		)
+		(instances
+			(project "Arcjet-PPU"
+				(path "/a26094a8-870e-4d79-a298-19a2c7b26655/2e7fa251-70ac-41fd-b058-c882c0469f37"
+					(reference "#PWR139")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 297.18 48.26 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "57e0d865-3b6f-483a-a8cb-1eecc275c4c0")
+		(property "Reference" "#PWR140"
+			(at 297.18 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 297.18 53.34 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 297.18 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 297.18 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\""
+			(at 297.18 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(body_style 1)
+		(in_pos_files yes)
+		(pin "1"
+			(uuid "8cee55aa-97fe-4b00-ac59-5afa8805a4a4")
+		)
+		(instances
+			(project "Arcjet-PPU"
+				(path "/a26094a8-870e-4d79-a298-19a2c7b26655/2e7fa251-70ac-41fd-b058-c882c0469f37"
+					(reference "#PWR140")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 302.26 40.64 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e8b6c428-c992-4869-aa3a-bd553881ae34")
+		(property "Reference" "#PWR141"
+			(at 302.26 35.8775 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 302.26 36.83 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 302.26 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 302.26 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 302.26 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(body_style 1)
+		(in_pos_files yes)
+		(pin "1"
+			(uuid "b65f0506-a69f-4bd6-8e78-2b4f22b617c1")
+		)
+		(instances
+			(project "Arcjet-PPU"
+				(path "/a26094a8-870e-4d79-a298-19a2c7b26655/2e7fa251-70ac-41fd-b058-c882c0469f37"
+					(reference "#PWR141")
+					(unit 1)
+				)
+			)
+		)
 	)
 )
