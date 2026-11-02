@@ -1,0 +1,28 @@
+(footprint "L_Bourns_1140_D38.1mm_P29.2mm_Vertical"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "Bourns 1140 series high current choke, vertical, D38.1mm max, lead pitch 29.2mm (1.15in), lead dia 1.63mm (14 AWG)")
+	(tags "inductor choke Bourns 1140")
+	(property "Reference" "REF**"
+		(at 14.6 -20.5 0)
+		(layer "F.SilkS")
+		
+		(uuid "d286990b-49d2-46bf-b6b5-e11e8ee9c2a7")
+		(effects (font (size 1 1) (thickness 0.15)))
+	)
+	(property "Value" "L_Bourns_1140_D38.1mm_P29.2mm_Vertical"
+		(at 14.6 20.5 0)
+		(layer "F.Fab")
+		
+		(uuid "ab9ccb66-3213-4d28-897e-8e2ddd0ab706")
+		(effects (font (size 1 1) (thickness 0.15)))
+	)
+	(attr through_hole)
+	(fp_circle (center 14.6 0) (end 33.65 0) (stroke (width 0.1) (type solid)) (fill no) (layer "F.Fab") (uuid "818d55dc-99a7-4f11-886a-9ad773dbdb09"))
+	(fp_circle (center 14.6 0) (end 33.8 0) (stroke (width 0.12) (type solid)) (fill no) (layer "F.SilkS") (uuid "c2492577-35f5-4e17-94db-2e5bd65742bc"))
+	(fp_circle (center 14.6 0) (end 34.2 0) (stroke (width 0.05) (type solid)) (fill no) (layer "F.CrtYd") (uuid "b5fe7ea3-adfe-4afb-887c-62595877298d"))
+	(pad "1" thru_hole rect (at 0 0) (size 4 4) (drill 2.1) (layers "*.Cu" "*.Mask") (uuid "8a47882d-7572-4908-8779-193096eaad45"))
+	(pad "2" thru_hole circle (at 29.2 0) (size 4 4) (drill 2.1) (layers "*.Cu" "*.Mask") (uuid "136dc486-f719-4722-97a9-b2c69d880bdb"))
+)
